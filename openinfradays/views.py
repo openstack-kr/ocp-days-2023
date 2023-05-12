@@ -162,6 +162,8 @@ def session_list(request):
     return render(request, 'sessions.html', {**menu, **context})
 
 
-def event(request):
-    return render(request, 'event.html')
+def cfp(request):
+    return render(request, 'cfp.html')
 
+def venue(request):
+    return render(request, 'venue.html')
